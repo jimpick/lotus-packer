@@ -44,6 +44,7 @@
         "sudo apt-get install -y build-essential",
         "wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz",
         "sudo tar -C /usr/local -xzf go1.14.4.linux-amd64.tar.gz",
+        "ls -lh /usr/local/go/bin",
         "rm go1.14.4.linux-amd64.tar.gz",
         "echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee -a /etc/profile",
         "sudo apt-get install -y apt-transport-https gnupg-agent",
@@ -55,8 +56,12 @@
         "curl -sSf https://sh.rustup.rs | sh -s -- -y",
         "git clone https://github.com/filecoin-project/lotus.git",
         "cd lotus",
-        "git checkout interop.6.1",
-        "make all"
+        "git checkout interop.6.16.0",
+        "export PATH=$PATH:/usr/local/go/bin",
+        "make all",
+        "echo >> .bashrc",
+        "echo 'ulimit -Sn 10240' >> .bashrc",
+        "mkdir ~/tmp"
       ]
     }
   ]
