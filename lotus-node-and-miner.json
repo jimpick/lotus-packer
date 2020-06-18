@@ -41,7 +41,22 @@
       "inline": [
         "sleep 30",
         "sudo apt-get update",
-        "sudo apt-get install -y redis-server"
+        "sudo apt-get install -y build-essential",
+        "wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz",
+        "sudo tar -C /usr/local -xzf go1.14.4.linux-amd64.tar.gz",
+        "rm go1.14.4.linux-amd64.tar.gz",
+        "echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee -a /etc/profile",
+        "sudo apt-get install -y apt-transport-https gnupg-agent",
+        "sudo apt-get install -y jq",
+        "sudo apt-get install -y nload",
+        "sudo apt-get install -y mosh",
+        "sudo apt-get install -y ca-certificates llvm clang mesa-opencl-icd ocl-icd-opencl-dev",
+        "sudo apt-get install -y vim less pkg-config",
+        "curl -sSf https://sh.rustup.rs | sh -s -- -y",
+        "git clone https://github.com/filecoin-project/lotus.git",
+        "cd lotus",
+        "git checkout interop.6.1",
+        "make all"
       ]
     }
   ]
