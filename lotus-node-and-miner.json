@@ -18,7 +18,7 @@
         "owners": ["099720109477"],
         "most_recent": true
       },
-      "instance_type": "c5.2xlarge",
+      "instance_type": "r5a.large",
       "ssh_username": "ubuntu",
       "ami_name": "lotus-node-and-miner {{timestamp}}",
       "run_tags": {
@@ -56,9 +56,11 @@
         "curl -sSf https://sh.rustup.rs | sh -s -- -y",
         "git clone https://github.com/filecoin-project/lotus.git",
         "cd lotus",
-        "git checkout interop.6.16.0",
-        "export PATH=$PATH:/usr/local/go/bin",
-        "make all",
+        "git checkout ntwk-nerpa",
+        "export PATH=$PATH:/usr/local/go/bin:$HOME/.cargo/bin",
+        "export RUSTFLAGS=\"-C target-cpu=native -g\"",
+        "export FFI_BUILD_FROM_SOURCE=1",
+        "make all bench",
         "echo >> .bashrc",
         "echo 'ulimit -Sn 10240' >> .bashrc",
         "mkdir ~/tmp"
