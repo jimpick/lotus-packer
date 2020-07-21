@@ -40,6 +40,7 @@
       "type": "shell",
       "inline": [
         "sleep 30",
+        "sudo echo 'deb [trusted=yes] https://apt.fury.io/caddy/ /' > /etc/apt/sources.list.d/caddy-fury.list",
         "sudo apt-get update",
         "sudo apt-get install -y build-essential",
         "wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz",
@@ -53,6 +54,8 @@
         "sudo apt-get install -y mosh",
         "sudo apt-get install -y ca-certificates llvm clang mesa-opencl-icd ocl-icd-opencl-dev",
         "sudo apt-get install -y vim less pkg-config",
+        "sudo apt-get install -y caddy",
+        "sudo echo root * /home/ubuntu/downloads >> /etc/caddy/Caddyfile",
         "curl -sSf https://sh.rustup.rs | sh -s -- -y",
         "git clone https://github.com/filecoin-project/lotus.git",
         "cd lotus",
@@ -63,7 +66,8 @@
         "make all bench",
         "echo >> .bashrc",
         "echo 'ulimit -Sn 10240' >> .bashrc",
-        "mkdir ~/tmp"
+        "mkdir ~/tmp",
+        "mkdir ~/downloads"
       ]
     }
   ]
