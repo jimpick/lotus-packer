@@ -1,0 +1,736 @@
+2020/08/15 13:46:22 [INFO] Packer version: 1.4.0
+2020/08/15 13:46:22 Packer Target OS/Arch: darwin amd64
+2020/08/15 13:46:22 Built with Go Version: go1.12
+2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 Using internal plugin for amazon-chroot
+2020/08/15 13:46:22 Using internal plugin for amazon-ebsvolume
+2020/08/15 13:46:22 Using internal plugin for vagrant
+2020/08/15 13:46:22 Using internal plugin for googlecompute
+2020/08/15 13:46:22 Using internal plugin for hyperv-vmcx
+2020/08/15 13:46:22 Using internal plugin for lxd
+2020/08/15 13:46:22 Using internal plugin for oneandone
+2020/08/15 13:46:22 Using internal plugin for scaleway
+2020/08/15 13:46:22 Using internal plugin for alicloud-ecs
+2020/08/15 13:46:22 Using internal plugin for digitalocean
+2020/08/15 13:46:22 Using internal plugin for lxc
+2020/08/15 13:46:22 Using internal plugin for ncloud
+2020/08/15 13:46:22 Using internal plugin for amazon-ebssurrogate
+2020/08/15 13:46:22 Using internal plugin for oracle-oci
+2020/08/15 13:46:22 Using internal plugin for parallels-pvm
+2020/08/15 13:46:22 Using internal plugin for qemu
+2020/08/15 13:46:22 Using internal plugin for triton
+2020/08/15 13:46:22 Using internal plugin for amazon-ebs
+2020/08/15 13:46:22 Using internal plugin for amazon-instance
+2020/08/15 13:46:22 Using internal plugin for null
+2020/08/15 13:46:22 Using internal plugin for vmware-vmx
+2020/08/15 13:46:22 Using internal plugin for file
+2020/08/15 13:46:22 Using internal plugin for hyperone
+2020/08/15 13:46:22 Using internal plugin for hyperv-iso
+2020/08/15 13:46:22 Using internal plugin for profitbricks
+2020/08/15 13:46:22 Using internal plugin for virtualbox-iso
+2020/08/15 13:46:22 Using internal plugin for azure-arm
+2020/08/15 13:46:22 Using internal plugin for cloudstack
+2020/08/15 13:46:22 Using internal plugin for docker
+2020/08/15 13:46:22 Using internal plugin for oracle-classic
+2020/08/15 13:46:22 Using internal plugin for parallels-iso
+2020/08/15 13:46:22 Using internal plugin for tencentcloud-cvm
+2020/08/15 13:46:22 Using internal plugin for hcloud
+2020/08/15 13:46:22 Using internal plugin for openstack
+2020/08/15 13:46:22 Using internal plugin for virtualbox-ovf
+2020/08/15 13:46:22 Using internal plugin for vmware-iso
+2020/08/15 13:46:22 Using internal plugin for windows-shell
+2020/08/15 13:46:22 Using internal plugin for chef-client
+2020/08/15 13:46:22 Using internal plugin for converge
+2020/08/15 13:46:22 Using internal plugin for sleep
+2020/08/15 13:46:22 Using internal plugin for file
+2020/08/15 13:46:22 Using internal plugin for puppet-server
+2020/08/15 13:46:22 Using internal plugin for salt-masterless
+2020/08/15 13:46:22 Using internal plugin for shell-local
+2020/08/15 13:46:22 Using internal plugin for ansible
+2020/08/15 13:46:22 Using internal plugin for ansible-local
+2020/08/15 13:46:22 Using internal plugin for chef-solo
+2020/08/15 13:46:22 Using internal plugin for breakpoint
+2020/08/15 13:46:22 Using internal plugin for inspec
+2020/08/15 13:46:22 Using internal plugin for windows-restart
+2020/08/15 13:46:22 Using internal plugin for powershell
+2020/08/15 13:46:22 Using internal plugin for puppet-masterless
+2020/08/15 13:46:22 Using internal plugin for shell
+2020/08/15 13:46:22 Using internal plugin for vagrant-cloud
+2020/08/15 13:46:22 Using internal plugin for compress
+2020/08/15 13:46:22 Using internal plugin for docker-push
+2020/08/15 13:46:22 Using internal plugin for docker-import
+2020/08/15 13:46:22 Using internal plugin for docker-save
+2020/08/15 13:46:22 Using internal plugin for manifest
+2020/08/15 13:46:22 Using internal plugin for vsphere-template
+2020/08/15 13:46:22 Using internal plugin for amazon-import
+2020/08/15 13:46:22 Using internal plugin for checksum
+2020/08/15 13:46:22 Using internal plugin for googlecompute-export
+2020/08/15 13:46:22 Using internal plugin for googlecompute-import
+2020/08/15 13:46:22 Using internal plugin for shell-local
+2020/08/15 13:46:22 Using internal plugin for digitalocean-import
+2020/08/15 13:46:22 Using internal plugin for docker-tag
+2020/08/15 13:46:22 Using internal plugin for vagrant
+2020/08/15 13:46:22 Using internal plugin for vsphere
+2020/08/15 13:46:22 Using internal plugin for alicloud-import
+2020/08/15 13:46:22 Using internal plugin for artifice
+2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 Attempting to open config file: /Users/jim/.packerconfig
+2020/08/15 13:46:22 [WARN] Config file doesn't exist: /Users/jim/.packerconfig
+2020/08/15 13:46:22 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[alicloud-ecs:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-alicloud-ecs amazon-chroot:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-chroot amazon-ebs:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebs amazon-ebssurrogate:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebssurrogate amazon-ebsvolume:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebsvolume amazon-instance:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-instance azure-arm:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-azure-arm cloudstack:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-cloudstack digitalocean:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-digitalocean docker:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-docker file:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-file googlecompute:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-googlecompute hcloud:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hcloud hyperone:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperone hyperv-iso:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-iso hyperv-vmcx:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-vmcx lxc:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxc lxd:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxd ncloud:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-ncloud null:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-null oneandone:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oneandone openstack:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-openstack oracle-classic:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-classic oracle-oci:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-oci parallels-iso:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-iso parallels-pvm:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-pvm profitbricks:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-profitbricks qemu:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-qemu scaleway:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-scaleway tencentcloud-cvm:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-tencentcloud-cvm triton:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-triton vagrant:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vagrant virtualbox-iso:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso virtualbox-ovf:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-ovf vmware-iso:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-iso vmware-vmx:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-vmx] PostProcessors:map[alicloud-import:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-alicloud-import amazon-import:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-amazon-import artifice:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-artifice checksum:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-checksum compress:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-compress digitalocean-import:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-digitalocean-import docker-import:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-import docker-push:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-push docker-save:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-save docker-tag:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-tag googlecompute-export:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-export googlecompute-import:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-import manifest:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-manifest shell-local:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-shell-local vagrant:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant vagrant-cloud:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant-cloud vsphere:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere vsphere-template:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere-template] Provisioners:map[ansible:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible ansible-local:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible-local breakpoint:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-breakpoint chef-client:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-client chef-solo:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-solo converge:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-converge file:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-file inspec:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-inspec powershell:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell puppet-masterless:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-masterless puppet-server:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-server salt-masterless:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-salt-masterless shell:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell shell-local:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell-local sleep:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-sleep windows-restart:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart windows-shell:/Users/jim/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell]}
+2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 Setting cache directory: /Users/jim/filecoin-jpimac/lotus-packer/vmware/packer_cache
+2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 Loading builder: vmware-iso
+2020/08/15 13:46:22 Plugin could not be found. Checking same directory as executable.
+2020/08/15 13:46:22 Current exe path: /Users/jim/bin/packer
+2020/08/15 13:46:22 Creating plugin client for path: /Users/jim/bin/packer
+2020/08/15 13:46:22 Starting plugin: /Users/jim/bin/packer []string{"/Users/jim/bin/packer", "plugin", "packer-builder-vmware-iso"}
+2020/08/15 13:46:22 Waiting for RPC address for: /Users/jim/bin/packer
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 [INFO] Packer version: 1.4.0
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Packer Target OS/Arch: darwin amd64
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Built with Go Version: go1.12
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Attempting to open config file: /Users/jim/.packerconfig
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 [WARN] Config file doesn't exist: /Users/jim/.packerconfig
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Setting cache directory: /Users/jim/filecoin-jpimac/lotus-packer/vmware/packer_cache
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Detected home directory from env var: /Users/jim
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 args: []string{"packer-builder-vmware-iso"}
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Plugin minimum port: 10000
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Plugin maximum port: 25000
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Plugin address: unix /var/folders/cd/vcx3gsyd1bs8x0m8jqpnj7s80000gn/T/packer-plugin788007662
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Waiting for connection...
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Serving a plugin connection...
+2020/08/15 13:46:22 ui: [1;32mvmware-iso output will be in this color.[0m
+2020/08/15 13:46:22 ui: 
+2020/08/15 13:46:22 Build debug mode: false
+2020/08/15 13:46:22 Force build: false
+2020/08/15 13:46:22 On error: 
+2020/08/15 13:46:22 Preparing build: vmware-iso
+2020/08/15 13:46:22 Waiting on builds to complete...
+2020/08/15 13:46:22 Starting build run: vmware-iso
+2020/08/15 13:46:22 Running builder: vmware-iso
+2020/08/15 13:46:22 [INFO] (telemetry) Starting builder vmware-iso
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Detected VMware version: 11
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Testing vmware driver *common.Fusion6Driver. Success: true
+2020/08/15 13:46:22 ui: [1;32m==> vmware-iso: Retrieving ISO[0m
+2020/08/15 13:46:22 ui: [1;32m==> vmware-iso: Trying http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-amd64.iso[0m
+2020/08/15 13:46:22 packer: 2020/08/15 13:46:22 Acquiring lock for: http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-amd64.iso?checksum=sha256%3A8c5fc24894394035402f66f3824beb7234b757dd2b5531379cb310cedfdf0996 (/Users/jim/filecoin-jpimac/lotus-packer/vmware/packer_cache/a37af95ab12e665ba168128cde2f3662740b21a2.iso.lock)
+2020/08/15 13:46:22 ui: [1;32m==> vmware-iso: Trying http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-amd64.iso?checksum=sha256%3A8c5fc24894394035402f66f3824beb7234b757dd2b5531379cb310cedfdf0996[0m
+2020/08/15 13:46:24 ui: [1;32m==> vmware-iso: http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-amd64.iso?checksum=sha256%3A8c5fc24894394035402f66f3824beb7234b757dd2b5531379cb310cedfdf0996 => /Users/jim/filecoin-jpimac/lotus-packer/vmware/packer_cache/a37af95ab12e665ba168128cde2f3662740b21a2.iso[0m
+2020/08/15 13:46:24 ui: [1;32m==> vmware-iso: leaving retrieve loop for ISO[0m
+2020/08/15 13:46:24 packer: 2020/08/15 13:46:24 No floppy files specified. Floppy disk will not be made.
+2020/08/15 13:46:24 ui: [1;32m==> vmware-iso: Creating required virtual machine disks[0m
+2020/08/15 13:46:24 packer: 2020/08/15 13:46:24 [INFO] Creating disk with Path: output-vmware-iso/disk.vmdk and Size: 40000M
+2020/08/15 13:46:24 packer: 2020/08/15 13:46:24 Executing: /Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager -c -s 40000M -a lsilogic -t 1 output-vmware-iso/disk.vmdk
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 stdout: Creating disk 'output-vmware-iso/disk.vmdk'
+2020/08/15 13:46:25 packer: Virtual disk creation successful.
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 stderr: VixDiskLib: Failed to initialize PhoneHome library.
+2020/08/15 13:46:25 ui: [1;32m==> vmware-iso: Building and writing VMX file[0m
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Writing VMX to: output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Configuring VMX...
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Writing VMX to: output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Suppressing messages in VMX
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Trying port: 8720
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Found available port: 8720 on IP: 0.0.0.0
+2020/08/15 13:46:25 ui: [1;32m==> vmware-iso: Starting HTTP server on port 8720[0m
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Looking for available port between 5900 and 6000
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Trying port: 5939
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Found available port: 5939 on IP: 127.0.0.1
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Found available VNC port: &{0xc000244138 5939 127.0.0.1 0xc0004c2240}
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Writing VMX to: output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:46:25 ui: [1;32m==> vmware-iso: Starting virtual machine...[0m
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 Executing: /Applications/VMware Fusion.app/Contents/Library/vmrun -T fusion start output-vmware-iso/packer-vmware-iso.vmx gui
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 stdout:
+2020/08/15 13:46:25 packer: 2020/08/15 13:46:25 stderr:
+2020/08/15 13:46:25 ui: [1;32m==> vmware-iso: Waiting 10s for boot...[0m
+2020/08/15 13:46:35 ui: [1;32m==> vmware-iso: Connecting to VM via VNC (127.0.0.1:5939)[0m
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 Connected to VNC desktop: packer-vmware-iso
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 HostIP discovered device matching nat: vmnet8
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 Host IP for the VMware machine: 192.168.25.1
+2020/08/15 13:46:35 ui: [1;32m==> vmware-iso: Typing the boot command over VNC...[0m
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 Special code '<esc>' found, replacing with: 0xFF1B
+2020/08/15 13:46:35 packer: 2020/08/15 13:46:35 [INFO] Waiting 1s
+2020/08/15 13:46:36 packer: 2020/08/15 13:46:36 Special code '<esc>' found, replacing with: 0xFF1B
+2020/08/15 13:46:37 packer: 2020/08/15 13:46:37 [INFO] Waiting 1s
+2020/08/15 13:46:38 packer: 2020/08/15 13:46:38 Special code '<enter>' found, replacing with: 0xFF0D
+2020/08/15 13:46:38 packer: 2020/08/15 13:46:38 [INFO] Waiting 1s
+2020/08/15 13:46:39 packer: 2020/08/15 13:46:39 Sending char '/', code 0x2F, shift false
+2020/08/15 13:46:39 packer: 2020/08/15 13:46:39 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:39 packer: 2020/08/15 13:46:39 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:39 packer: 2020/08/15 13:46:39 Sending char 's', code 0x73, shift false
+2020/08/15 13:46:40 packer: 2020/08/15 13:46:40 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:40 packer: 2020/08/15 13:46:40 Sending char 'a', code 0x61, shift false
+2020/08/15 13:46:40 packer: 2020/08/15 13:46:40 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:40 packer: 2020/08/15 13:46:40 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:41 packer: 2020/08/15 13:46:41 Sending char '/', code 0x2F, shift false
+2020/08/15 13:46:41 packer: 2020/08/15 13:46:41 Sending char 'v', code 0x76, shift false
+2020/08/15 13:46:41 packer: 2020/08/15 13:46:41 Sending char 'm', code 0x6D, shift false
+2020/08/15 13:46:41 packer: 2020/08/15 13:46:41 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:41 packer: 2020/08/15 13:46:41 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:42 packer: 2020/08/15 13:46:42 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:42 packer: 2020/08/15 13:46:42 Sending char 'u', code 0x75, shift false
+2020/08/15 13:46:42 packer: 2020/08/15 13:46:42 Sending char 'z', code 0x7A, shift false
+2020/08/15 13:46:42 packer: 2020/08/15 13:46:42 [INFO] Waiting 1s
+2020/08/15 13:46:43 packer: 2020/08/15 13:46:43 Sending char ' ', code 0x20, shift false
+2020/08/15 13:46:43 packer: 2020/08/15 13:46:43 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:44 packer: 2020/08/15 13:46:44 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:44 packer: 2020/08/15 13:46:44 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:44 packer: 2020/08/15 13:46:44 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:44 packer: 2020/08/15 13:46:44 Sending char 'r', code 0x72, shift false
+2020/08/15 13:46:44 packer: 2020/08/15 13:46:44 Sending char 'd', code 0x64, shift false
+2020/08/15 13:46:45 packer: 2020/08/15 13:46:45 Sending char '=', code 0x3D, shift false
+2020/08/15 13:46:45 packer: 2020/08/15 13:46:45 Sending char '/', code 0x2F, shift false
+2020/08/15 13:46:45 packer: 2020/08/15 13:46:45 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:45 packer: 2020/08/15 13:46:45 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:45 packer: 2020/08/15 13:46:45 Sending char 's', code 0x73, shift false
+2020/08/15 13:46:46 packer: 2020/08/15 13:46:46 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:46 packer: 2020/08/15 13:46:46 Sending char 'a', code 0x61, shift false
+2020/08/15 13:46:46 packer: 2020/08/15 13:46:46 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:46 packer: 2020/08/15 13:46:46 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:46 packer: 2020/08/15 13:46:46 Sending char '/', code 0x2F, shift false
+2020/08/15 13:46:47 packer: 2020/08/15 13:46:47 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:47 packer: 2020/08/15 13:46:47 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:47 packer: 2020/08/15 13:46:47 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:47 packer: 2020/08/15 13:46:47 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:47 packer: 2020/08/15 13:46:47 Sending char 'r', code 0x72, shift false
+2020/08/15 13:46:48 packer: 2020/08/15 13:46:48 Sending char 'd', code 0x64, shift false
+2020/08/15 13:46:48 packer: 2020/08/15 13:46:48 Sending char '.', code 0x2E, shift false
+2020/08/15 13:46:48 packer: 2020/08/15 13:46:48 Sending char 'g', code 0x67, shift false
+2020/08/15 13:46:48 packer: 2020/08/15 13:46:48 Sending char 'z', code 0x7A, shift false
+2020/08/15 13:46:48 packer: 2020/08/15 13:46:48 Sending char ' ', code 0x20, shift false
+2020/08/15 13:46:49 packer: 2020/08/15 13:46:49 Sending char 'a', code 0x61, shift false
+2020/08/15 13:46:49 packer: 2020/08/15 13:46:49 Sending char 'u', code 0x75, shift false
+2020/08/15 13:46:49 packer: 2020/08/15 13:46:49 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:49 packer: 2020/08/15 13:46:49 Sending char 'o', code 0x6F, shift false
+2020/08/15 13:46:50 packer: 2020/08/15 13:46:50 Sending char '-', code 0x2D, shift false
+2020/08/15 13:46:50 packer: 2020/08/15 13:46:50 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:50 packer: 2020/08/15 13:46:50 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:50 packer: 2020/08/15 13:46:50 Sending char 's', code 0x73, shift false
+2020/08/15 13:46:50 packer: 2020/08/15 13:46:50 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:51 packer: 2020/08/15 13:46:51 Sending char 'a', code 0x61, shift false
+2020/08/15 13:46:51 packer: 2020/08/15 13:46:51 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:51 packer: 2020/08/15 13:46:51 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:51 packer: 2020/08/15 13:46:51 Sending char '/', code 0x2F, shift false
+2020/08/15 13:46:51 packer: 2020/08/15 13:46:51 Sending char 'e', code 0x65, shift false
+2020/08/15 13:46:52 packer: 2020/08/15 13:46:52 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:52 packer: 2020/08/15 13:46:52 Sending char 'a', code 0x61, shift false
+2020/08/15 13:46:52 packer: 2020/08/15 13:46:52 Sending char 'b', code 0x62, shift false
+2020/08/15 13:46:52 packer: 2020/08/15 13:46:52 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:52 packer: 2020/08/15 13:46:52 Sending char 'e', code 0x65, shift false
+2020/08/15 13:46:53 packer: 2020/08/15 13:46:53 Sending char '=', code 0x3D, shift false
+2020/08/15 13:46:53 packer: 2020/08/15 13:46:53 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:53 packer: 2020/08/15 13:46:53 Sending char 'r', code 0x72, shift false
+2020/08/15 13:46:53 packer: 2020/08/15 13:46:53 Sending char 'u', code 0x75, shift false
+2020/08/15 13:46:53 packer: 2020/08/15 13:46:53 Sending char 'e', code 0x65, shift false
+2020/08/15 13:46:54 packer: 2020/08/15 13:46:54 Sending char ' ', code 0x20, shift false
+2020/08/15 13:46:54 packer: 2020/08/15 13:46:54 Sending char 'd', code 0x64, shift false
+2020/08/15 13:46:54 packer: 2020/08/15 13:46:54 Sending char 'e', code 0x65, shift false
+2020/08/15 13:46:54 packer: 2020/08/15 13:46:54 Sending char 'b', code 0x62, shift false
+2020/08/15 13:46:54 packer: 2020/08/15 13:46:54 Sending char 'c', code 0x63, shift false
+2020/08/15 13:46:55 packer: 2020/08/15 13:46:55 Sending char 'o', code 0x6F, shift false
+2020/08/15 13:46:55 packer: 2020/08/15 13:46:55 Sending char 'n', code 0x6E, shift false
+2020/08/15 13:46:55 packer: 2020/08/15 13:46:55 Sending char 'f', code 0x66, shift false
+2020/08/15 13:46:55 packer: 2020/08/15 13:46:55 Sending char '/', code 0x2F, shift false
+2020/08/15 13:46:55 packer: 2020/08/15 13:46:55 Sending char 'p', code 0x70, shift false
+2020/08/15 13:46:56 packer: 2020/08/15 13:46:56 Sending char 'r', code 0x72, shift false
+2020/08/15 13:46:56 packer: 2020/08/15 13:46:56 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:56 packer: 2020/08/15 13:46:56 Sending char 'o', code 0x6F, shift false
+2020/08/15 13:46:56 packer: 2020/08/15 13:46:56 Sending char 'r', code 0x72, shift false
+2020/08/15 13:46:56 packer: 2020/08/15 13:46:56 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:57 packer: 2020/08/15 13:46:57 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:57 packer: 2020/08/15 13:46:57 Sending char 'y', code 0x79, shift false
+2020/08/15 13:46:57 packer: 2020/08/15 13:46:57 Sending char '=', code 0x3D, shift false
+2020/08/15 13:46:57 packer: 2020/08/15 13:46:57 Sending char 'c', code 0x63, shift false
+2020/08/15 13:46:58 packer: 2020/08/15 13:46:58 Sending char 'r', code 0x72, shift false
+2020/08/15 13:46:58 packer: 2020/08/15 13:46:58 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:58 packer: 2020/08/15 13:46:58 Sending char 't', code 0x74, shift false
+2020/08/15 13:46:58 packer: 2020/08/15 13:46:58 Sending char 'i', code 0x69, shift false
+2020/08/15 13:46:58 packer: 2020/08/15 13:46:58 Sending char 'c', code 0x63, shift false
+2020/08/15 13:46:59 packer: 2020/08/15 13:46:59 Sending char 'a', code 0x61, shift false
+2020/08/15 13:46:59 packer: 2020/08/15 13:46:59 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:46:59 packer: 2020/08/15 13:46:59 Sending char ' ', code 0x20, shift false
+2020/08/15 13:46:59 packer: 2020/08/15 13:46:59 Sending char 'p', code 0x70, shift false
+2020/08/15 13:46:59 packer: 2020/08/15 13:46:59 Sending char 'r', code 0x72, shift false
+2020/08/15 13:47:00 packer: 2020/08/15 13:47:00 Sending char 'e', code 0x65, shift false
+2020/08/15 13:47:00 packer: 2020/08/15 13:47:00 Sending char 's', code 0x73, shift false
+2020/08/15 13:47:00 packer: 2020/08/15 13:47:00 Sending char 'e', code 0x65, shift false
+2020/08/15 13:47:00 packer: 2020/08/15 13:47:00 Sending char 'e', code 0x65, shift false
+2020/08/15 13:47:00 packer: 2020/08/15 13:47:00 Sending char 'd', code 0x64, shift false
+2020/08/15 13:47:01 packer: 2020/08/15 13:47:01 Sending char '/', code 0x2F, shift false
+2020/08/15 13:47:01 packer: 2020/08/15 13:47:01 Sending char 'u', code 0x75, shift false
+2020/08/15 13:47:01 packer: 2020/08/15 13:47:01 Sending char 'r', code 0x72, shift false
+2020/08/15 13:47:01 packer: 2020/08/15 13:47:01 Sending char 'l', code 0x6C, shift false
+2020/08/15 13:47:01 packer: 2020/08/15 13:47:01 Sending char '=', code 0x3D, shift false
+2020/08/15 13:47:02 packer: 2020/08/15 13:47:02 Sending char 'h', code 0x68, shift false
+2020/08/15 13:47:02 packer: 2020/08/15 13:47:02 Sending char 't', code 0x74, shift false
+2020/08/15 13:47:02 packer: 2020/08/15 13:47:02 Sending char 't', code 0x74, shift false
+2020/08/15 13:47:02 packer: 2020/08/15 13:47:02 Sending char 'p', code 0x70, shift false
+2020/08/15 13:47:02 packer: 2020/08/15 13:47:02 Sending char ':', code 0x3A, shift true
+2020/08/15 13:47:03 packer: 2020/08/15 13:47:03 Sending char '/', code 0x2F, shift false
+2020/08/15 13:47:03 packer: 2020/08/15 13:47:03 Sending char '/', code 0x2F, shift false
+2020/08/15 13:47:03 packer: 2020/08/15 13:47:03 Sending char '1', code 0x31, shift false
+2020/08/15 13:47:03 packer: 2020/08/15 13:47:03 Sending char '9', code 0x39, shift false
+2020/08/15 13:47:04 packer: 2020/08/15 13:47:04 Sending char '2', code 0x32, shift false
+2020/08/15 13:47:04 packer: 2020/08/15 13:47:04 Sending char '.', code 0x2E, shift false
+2020/08/15 13:47:04 packer: 2020/08/15 13:47:04 Sending char '1', code 0x31, shift false
+2020/08/15 13:47:04 packer: 2020/08/15 13:47:04 Sending char '6', code 0x36, shift false
+2020/08/15 13:47:04 packer: 2020/08/15 13:47:04 Sending char '8', code 0x38, shift false
+2020/08/15 13:47:05 packer: 2020/08/15 13:47:05 Sending char '.', code 0x2E, shift false
+2020/08/15 13:47:05 packer: 2020/08/15 13:47:05 Sending char '2', code 0x32, shift false
+2020/08/15 13:47:05 packer: 2020/08/15 13:47:05 Sending char '5', code 0x35, shift false
+2020/08/15 13:47:05 packer: 2020/08/15 13:47:05 Sending char '.', code 0x2E, shift false
+2020/08/15 13:47:06 packer: 2020/08/15 13:47:06 Sending char '1', code 0x31, shift false
+2020/08/15 13:47:06 packer: 2020/08/15 13:47:06 Sending char ':', code 0x3A, shift true
+2020/08/15 13:47:06 packer: 2020/08/15 13:47:06 Sending char '8', code 0x38, shift false
+2020/08/15 13:47:06 packer: 2020/08/15 13:47:06 Sending char '7', code 0x37, shift false
+2020/08/15 13:47:07 packer: 2020/08/15 13:47:07 Sending char '2', code 0x32, shift false
+2020/08/15 13:47:07 packer: 2020/08/15 13:47:07 Sending char '0', code 0x30, shift false
+2020/08/15 13:47:07 packer: 2020/08/15 13:47:07 Sending char '/', code 0x2F, shift false
+2020/08/15 13:47:07 packer: 2020/08/15 13:47:07 Sending char 'p', code 0x70, shift false
+2020/08/15 13:47:07 packer: 2020/08/15 13:47:07 Sending char 'r', code 0x72, shift false
+2020/08/15 13:47:08 packer: 2020/08/15 13:47:08 Sending char 'e', code 0x65, shift false
+2020/08/15 13:47:08 packer: 2020/08/15 13:47:08 Sending char 's', code 0x73, shift false
+2020/08/15 13:47:08 packer: 2020/08/15 13:47:08 Sending char 'e', code 0x65, shift false
+2020/08/15 13:47:08 packer: 2020/08/15 13:47:08 Sending char 'e', code 0x65, shift false
+2020/08/15 13:47:08 packer: 2020/08/15 13:47:08 Sending char 'd', code 0x64, shift false
+2020/08/15 13:47:09 packer: 2020/08/15 13:47:09 Sending char '.', code 0x2E, shift false
+2020/08/15 13:47:09 packer: 2020/08/15 13:47:09 Sending char 'c', code 0x63, shift false
+2020/08/15 13:47:09 packer: 2020/08/15 13:47:09 Sending char 'f', code 0x66, shift false
+2020/08/15 13:47:09 packer: 2020/08/15 13:47:09 Sending char 'g', code 0x67, shift false
+2020/08/15 13:47:09 packer: 2020/08/15 13:47:09 [INFO] Waiting 1s
+2020/08/15 13:47:10 packer: 2020/08/15 13:47:10 Sending char ' ', code 0x20, shift false
+2020/08/15 13:47:11 packer: 2020/08/15 13:47:11 Sending char '-', code 0x2D, shift false
+2020/08/15 13:47:11 packer: 2020/08/15 13:47:11 Sending char '-', code 0x2D, shift false
+2020/08/15 13:47:11 packer: 2020/08/15 13:47:11 Sending char ' ', code 0x20, shift false
+2020/08/15 13:47:11 packer: 2020/08/15 13:47:11 [INFO] Waiting 1s
+2020/08/15 13:47:12 packer: 2020/08/15 13:47:12 Special code '<enter>' found, replacing with: 0xFF0D
+2020/08/15 13:47:12 packer: 2020/08/15 13:47:12 [INFO] Waiting 1s
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Lookup up IP information...
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Detected IP: 192.168.25.165
+2020/08/15 13:47:13 ui: [1;32m==> vmware-iso: Using ssh communicator to connect: 192.168.25.165[0m
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 [INFO] Waiting for SSH, up to timeout: 2h46m40s
+2020/08/15 13:47:13 ui: [1;32m==> vmware-iso: Waiting for SSH to become available...[0m
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Lookup up IP information...
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:13 packer: 2020/08/15 13:47:13 Detected IP: 192.168.25.165
+2020/08/15 13:47:28 packer: 2020/08/15 13:47:28 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: i/o timeout
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 Lookup up IP information...
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 Detected IP: 192.168.25.165
+2020/08/15 13:47:33 packer: 2020/08/15 13:47:33 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: host is down
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 Lookup up IP information...
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 Detected IP: 192.168.25.165
+2020/08/15 13:47:38 packer: 2020/08/15 13:47:38 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: host is down
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 Lookup up IP information...
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 Detected IP: 192.168.25.165
+2020/08/15 13:47:43 packer: 2020/08/15 13:47:43 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: host is down
+2020/08/15 13:47:48 packer: 2020/08/15 13:47:48 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 Lookup up IP information...
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 Detected IP: 192.168.25.165
+2020/08/15 13:47:49 packer: 2020/08/15 13:47:49 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 Lookup up IP information...
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 Detected IP: 192.168.25.165
+2020/08/15 13:47:54 packer: 2020/08/15 13:47:54 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 Lookup up IP information...
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 Detected IP: 192.168.25.165
+2020/08/15 13:47:59 packer: 2020/08/15 13:47:59 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 Lookup up IP information...
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 Detected IP: 192.168.25.165
+2020/08/15 13:48:04 packer: 2020/08/15 13:48:04 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 Lookup up IP information...
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 Detected IP: 192.168.25.165
+2020/08/15 13:48:09 packer: 2020/08/15 13:48:09 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 Lookup up IP information...
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 Detected IP: 192.168.25.165
+2020/08/15 13:48:14 packer: 2020/08/15 13:48:14 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 Lookup up IP information...
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 Detected IP: 192.168.25.165
+2020/08/15 13:48:19 packer: 2020/08/15 13:48:19 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 Lookup up IP information...
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 Detected IP: 192.168.25.165
+2020/08/15 13:48:24 packer: 2020/08/15 13:48:24 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 Lookup up IP information...
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:29 packer: 2020/08/15 13:48:29 Detected IP: 192.168.25.165
+2020/08/15 13:48:30 packer: 2020/08/15 13:48:30 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 Lookup up IP information...
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 Detected IP: 192.168.25.165
+2020/08/15 13:48:35 packer: 2020/08/15 13:48:35 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 Lookup up IP information...
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 Detected IP: 192.168.25.165
+2020/08/15 13:48:40 packer: 2020/08/15 13:48:40 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 Lookup up IP information...
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 Detected IP: 192.168.25.165
+2020/08/15 13:48:45 packer: 2020/08/15 13:48:45 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 Lookup up IP information...
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 Detected IP: 192.168.25.165
+2020/08/15 13:48:50 packer: 2020/08/15 13:48:50 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 Lookup up IP information...
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 Detected IP: 192.168.25.165
+2020/08/15 13:48:55 packer: 2020/08/15 13:48:55 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 Lookup up IP information...
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 Detected IP: 192.168.25.165
+2020/08/15 13:49:00 packer: 2020/08/15 13:49:00 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 Lookup up IP information...
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 Detected IP: 192.168.25.165
+2020/08/15 13:49:05 packer: 2020/08/15 13:49:05 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 Lookup up IP information...
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:10 packer: 2020/08/15 13:49:10 Detected IP: 192.168.25.165
+2020/08/15 13:49:11 packer: 2020/08/15 13:49:11 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 Lookup up IP information...
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 Detected IP: 192.168.25.165
+2020/08/15 13:49:16 packer: 2020/08/15 13:49:16 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 Lookup up IP information...
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 Detected IP: 192.168.25.165
+2020/08/15 13:49:21 packer: 2020/08/15 13:49:21 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 Lookup up IP information...
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 Detected IP: 192.168.25.165
+2020/08/15 13:49:26 packer: 2020/08/15 13:49:26 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 Lookup up IP information...
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 Detected IP: 192.168.25.165
+2020/08/15 13:49:31 packer: 2020/08/15 13:49:31 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 Lookup up IP information...
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 Detected IP: 192.168.25.165
+2020/08/15 13:49:36 packer: 2020/08/15 13:49:36 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 Lookup up IP information...
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 Detected IP: 192.168.25.165
+2020/08/15 13:49:41 packer: 2020/08/15 13:49:41 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 Lookup up IP information...
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 Detected IP: 192.168.25.165
+2020/08/15 13:49:46 packer: 2020/08/15 13:49:46 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 Lookup up IP information...
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:51 packer: 2020/08/15 13:49:51 Detected IP: 192.168.25.165
+2020/08/15 13:49:52 packer: 2020/08/15 13:49:52 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 Lookup up IP information...
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 Detected IP: 192.168.25.165
+2020/08/15 13:49:57 packer: 2020/08/15 13:49:57 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 Lookup up IP information...
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 Detected IP: 192.168.25.165
+2020/08/15 13:50:02 packer: 2020/08/15 13:50:02 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 Lookup up IP information...
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 Detected IP: 192.168.25.165
+2020/08/15 13:50:07 packer: 2020/08/15 13:50:07 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 Lookup up IP information...
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 Detected IP: 192.168.25.165
+2020/08/15 13:50:12 packer: 2020/08/15 13:50:12 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 Lookup up IP information...
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 Detected IP: 192.168.25.165
+2020/08/15 13:50:17 packer: 2020/08/15 13:50:17 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 Lookup up IP information...
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 Detected IP: 192.168.25.165
+2020/08/15 13:50:22 packer: 2020/08/15 13:50:22 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 Lookup up IP information...
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 Detected IP: 192.168.25.165
+2020/08/15 13:50:27 packer: 2020/08/15 13:50:27 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 Lookup up IP information...
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:32 packer: 2020/08/15 13:50:32 Detected IP: 192.168.25.165
+2020/08/15 13:50:33 packer: 2020/08/15 13:50:33 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 Lookup up IP information...
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 Detected IP: 192.168.25.165
+2020/08/15 13:50:38 packer: 2020/08/15 13:50:38 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 Lookup up IP information...
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 Detected IP: 192.168.25.165
+2020/08/15 13:50:43 packer: 2020/08/15 13:50:43 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 192.168.25.165:22: connect: connection refused
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 Located networkmapper configuration file using Fusion6: /Library/Preferences/VMware Fusion/networking
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 Interface "en5" as specified by `add_bridge_mapping` was not found on the current platform. This is a non-critical error. Ignoring.
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 GuestIP discovered device matching nat: vmnet8
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 Lookup up IP information...
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 GuestAddress found MAC address in VMX: 00:0c:29:83:c3:3c
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 Trying DHCP leases path: /var/db/vmware/vmnet-dhcpd-vmnet8.leases
+2020/08/15 13:50:48 packer: 2020/08/15 13:50:48 Detected IP: 192.168.25.165
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [INFO] Attempting SSH connection to 192.168.25.165:22...
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Config to &ssh.Config{SSHConfig:(*ssh.ClientConfig)(0xc0000ec4e0), Connection:(func() (net.Conn, error))(0x19fc2f0), Pty:false, DisableAgentForwarding:false, HandshakeTimeout:0, UseSftp:false, KeepAliveInterval:5000000000, Timeout:0}...
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] reconnecting to TCP connection for SSH
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] handshaking with SSH
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] handshake complete!
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Opening new ssh session
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [INFO] agent forwarding enabled
+2020/08/15 13:50:52 ui: [1;32m==> vmware-iso: Connected to SSH![0m
+2020/08/15 13:50:52 ui: [1;32m==> vmware-iso: Uploading the 'linux' VMware Tools[0m
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Opening new ssh session
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Starting remote scp process:  scp -vt .
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Started SCP session, beginning transfers...
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Copying input data into temporary file so we can read the length
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] scp: Uploading linux.iso: perms=C0644 size=58564608
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] SCP session complete, closing stdin pipe.
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Waiting for SSH session to complete.
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] scp stderr (length 31): Sink: C0644 58564608 linux.iso
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 Running the provision hook
+2020/08/15 13:50:52 ui: [1;32m==> vmware-iso: Gracefully halting virtual machine...[0m
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 Executing shutdown command: echo 'ubuntu' | sudo -S shutdown -P now
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] Opening new ssh session
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 [DEBUG] starting remote command: echo 'ubuntu' | sudo -S shutdown -P now
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 Waiting max 5m0s for shutdown to complete
+2020/08/15 13:50:52 packer: 2020/08/15 13:50:52 Executing: /Applications/VMware Fusion.app/Contents/Library/vmrun -T fusion list
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 [ERROR] Remote command exited without exit status or exit signal.
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 stdout: Total running VMs: 1
+2020/08/15 13:50:53 packer: /Users/jim/filecoin-jpimac/lotus-packer/vmware/output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 stderr:
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 Executing: /Applications/VMware Fusion.app/Contents/Library/vmrun -T fusion list
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 stdout: Total running VMs: 1
+2020/08/15 13:50:53 packer: /Users/jim/filecoin-jpimac/lotus-packer/vmware/output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 stderr:
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 Executing: /Applications/VMware Fusion.app/Contents/Library/vmrun -T fusion list
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 stdout: Total running VMs: 0
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 stderr:
+2020/08/15 13:50:53 ui: [0;32m    vmware-iso: Waiting for VMware to clean up after itself...[0m
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 Waiting on lock files: []string{"output-vmware-iso/packer-vmware-iso.vmsd.lck/E51004.lck"}
+2020/08/15 13:50:53 packer: 2020/08/15 13:50:53 No more lock files found. VMware is clean.
+2020/08/15 13:50:58 packer: 2020/08/15 13:50:58 VM shut down.
+2020/08/15 13:50:58 ui: [1;32m==> vmware-iso: Deleting unnecessary VMware files...[0m
+2020/08/15 13:50:58 ui: [0;32m    vmware-iso: Deleting: output-vmware-iso/packer-vmware-iso.plist[0m
+2020/08/15 13:50:58 ui: [0;32m    vmware-iso: Deleting: output-vmware-iso/startMenu.plist[0m
+2020/08/15 13:50:58 ui: [0;32m    vmware-iso: Deleting: output-vmware-iso/vmware.log[0m
+2020/08/15 13:50:58 ui: [1;32m==> vmware-iso: Compacting all attached virtual disks...[0m
+2020/08/15 13:50:58 ui: [0;32m    vmware-iso: Compacting virtual disk 1[0m
+2020/08/15 13:50:58 packer: 2020/08/15 13:50:58 Executing: /Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager -d output-vmware-iso/disk.vmdk
+2020/08/15 13:51:03 packer: 2020/08/15 13:51:03 stdout: Defragment: 0% done.  Defragment: 1% done.  Defragment: 2% done.  Defragment: 3% done.  Defragment: 4% done.  Defragment: 5% done.  Defragment: 6% done.  Defragment: 7% done.  Defragment: 8% done.  Defragment: 9% done.  Defragment: 10% done.  Defragment: 11% done.  Defragment: 12% done.  Defragment: 13% done.  Defragment: 14% done.  Defragment: 15% done.  Defragment: 16% done.  Defragment: 17% done.  Defragment: 18% done.  Defragment: 19% done.  Defragment: 20% done.  Defragment: 21% done.  Defragment: 22% done.  Defragment: 23% done.  Defragment: 24% done.  Defragment: 25% done.  Defragment: 26% done.  Defragment: 27% done.  Defragment: 28% done.  Defragment: 29% done.  Defragment: 30% done.  Defragment: 31% done.  Defragment: 32% done.  Defragment: 33% done.  Defragment: 34% done.  Defragment: 35% done.  Defragment: 36% done.  Defragment: 37% done.  Defragment: 38% done.  Defragment: 39% done.  Defragment: 40% done.  Defragment: 41% done.  Defragment: 42% done.  Defragment: 43% done.  Defragment: 44% done.  Defragment: 45% done.  Defragment: 46% done.  Defragment: 47% done.  Defragment: 48% done.  Defragment: 49% done.  Defragment: 50% done.  Defragment: 51% done.  Defragment: 52% done.  Defragment: 53% done.  Defragment: 54% done.  Defragment: 55% done.  Defragment: 56% done.  Defragment: 57% done.  Defragment: 58% done.  Defragment: 59% done.  Defragment: 60% done.  Defragment: 61% done.  Defragment: 62% done.  Defragment: 63% done.  Defragment: 64% done.  Defragment: 65% done.  Defragment: 66% done.  Defragment: 67% done.  Defragment: 68% done.  Defragment: 69% done.  Defragment: 70% done.  Defragment: 71% done.  Defragment: 72% done.  Defragment: 73% done.  Defragment: 74% done.  Defragment: 75% done.  Defragment: 76% done.  Defragment: 77% done.  Defragment: 78% done.  Defragment: 79% done.  Defragment: 80% done.  Defragment: 81% done.  Defragment: 82% done.  Defragment: 83% done.  Defragment: 84% done.  Defragment: 85% done.  Defragment: 86% done.  Defragment: 87% done.  Defragment: 88% done.  Defragment: 89% done.  Defragment: 90% done.  Defragment: 91% done.  Defragment: 92% done.  Defragment: 93% done.  Defragment: 94% done.  Defragment: 95% done.  Defragment: 96% done.  Defragment: 97% done.  Defragment: 98% done.  Defragment: 99% done.  Defragment: 100% done.
+2020/08/15 13:51:03 packer: Defragmentation completed successfully.
+2020/08/15 13:51:03 packer: 2020/08/15 13:51:03 stderr: VixDiskLib: Failed to initialize PhoneHome library.
+2020/08/15 13:51:03 packer: 2020/08/15 13:51:03 Executing: /Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager -k output-vmware-iso/disk.vmdk
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 stdout: Shrink: 0% done.  Shrink: 1% done.  Shrink: 2% done.  Shrink: 3% done.  Shrink: 4% done.  Shrink: 5% done.  Shrink: 6% done.  Shrink: 7% done.  Shrink: 8% done.  Shrink: 9% done.  Shrink: 10% done.  Shrink: 11% done.  Shrink: 12% done.  Shrink: 13% done.  Shrink: 14% done.  Shrink: 15% done.  Shrink: 16% done.  Shrink: 17% done.  Shrink: 18% done.  Shrink: 19% done.  Shrink: 20% done.  Shrink: 21% done.  Shrink: 22% done.  Shrink: 23% done.  Shrink: 24% done.  Shrink: 25% done.  Shrink: 26% done.  Shrink: 27% done.  Shrink: 28% done.  Shrink: 29% done.  Shrink: 30% done.  Shrink: 31% done.  Shrink: 32% done.  Shrink: 33% done.  Shrink: 34% done.  Shrink: 35% done.  Shrink: 36% done.  Shrink: 37% done.  Shrink: 38% done.  Shrink: 39% done.  Shrink: 40% done.  Shrink: 41% done.  Shrink: 42% done.  Shrink: 43% done.  Shrink: 44% done.  Shrink: 45% done.  Shrink: 46% done.  Shrink: 47% done.  Shrink: 48% done.  Shrink: 49% done.  Shrink: 50% done.  Shrink: 51% done.  Shrink: 52% done.  Shrink: 53% done.  Shrink: 54% done.  Shrink: 55% done.  Shrink: 56% done.  Shrink: 57% done.  Shrink: 58% done.  Shrink: 59% done.  Shrink: 60% done.  Shrink: 61% done.  Shrink: 62% done.  Shrink: 63% done.  Shrink: 64% done.  Shrink: 65% done.  Shrink: 66% done.  Shrink: 67% done.  Shrink: 68% done.  Shrink: 69% done.  Shrink: 70% done.  Shrink: 71% done.  Shrink: 72% done.  Shrink: 73% done.  Shrink: 74% done.  Shrink: 75% done.  Shrink: 76% done.  Shrink: 77% done.  Shrink: 78% done.  Shrink: 79% done.  Shrink: 80% done.  Shrink: 81% done.  Shrink: 82% done.  Shrink: 83% done.  Shrink: 84% done.  Shrink: 85% done.  Shrink: 86% done.  Shrink: 87% done.  Shrink: 88% done.  Shrink: 89% done.  Shrink: 90% done.  Shrink: 91% done.  Shrink: 92% done.  Shrink: 93% done.  Shrink: 94% done.  Shrink: 95% done.  Shrink: 96% done.  Shrink: 97% done.  Shrink: 98% done.  Shrink: 99% done.  Shrink: 100% done.
+2020/08/15 13:51:09 packer: Shrink completed successfully.
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 stderr: VixDiskLib: Failed to initialize PhoneHome library.
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 Configuring VMX...
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 Writing VMX to: output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:51:09 ui: [1;32m==> vmware-iso: Cleaning VMX prior to finishing up...[0m
+2020/08/15 13:51:09 ui: [0;32m    vmware-iso: Detaching ISO from CD-ROM device ide0:0...[0m
+2020/08/15 13:51:09 ui: [0;32m    vmware-iso: Disabling VNC server...[0m
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 Writing VMX to: output-vmware-iso/packer-vmware-iso.vmx
+2020/08/15 13:51:09 ui: [1;32m==> vmware-iso: Skipping export of virtual machine (export is allowed only for ESXi)...[0m
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 Executing: /Applications/VMware Fusion.app/Contents/Library/vmrun -T fusion list
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 stdout: Total running VMs: 0
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 stderr:
+2020/08/15 13:51:09 packer: 2020/08/15 13:51:09 failed to unlock port lockfile: close tcp 127.0.0.1:5939: use of closed network connection
+2020/08/15 13:51:09 [INFO] (telemetry) ending vmware-iso
+2020/08/15 13:51:09 ui: [1;32mBuild 'vmware-iso' finished.[0m
+2020/08/15 13:51:09 Builds completed. Waiting on interrupt barrier...
+2020/08/15 13:51:09 ui: 
+==> Builds finished. The artifacts of successful builds are:
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact-count []string{"1"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "builder-id", "mitchellh.vmware"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "id", "packer-vmware-iso"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "string", "VM files in directory: output-vmware-iso"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "files-count", "15"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "0", "output-vmware-iso/disk-s001.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "1", "output-vmware-iso/disk-s002.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "2", "output-vmware-iso/disk-s003.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "3", "output-vmware-iso/disk-s004.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "4", "output-vmware-iso/disk-s005.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "5", "output-vmware-iso/disk-s006.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "6", "output-vmware-iso/disk-s007.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "7", "output-vmware-iso/disk-s008.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "8", "output-vmware-iso/disk-s009.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "9", "output-vmware-iso/disk-s010.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "10", "output-vmware-iso/disk.vmdk"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "11", "output-vmware-iso/packer-vmware-iso.nvram"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "12", "output-vmware-iso/packer-vmware-iso.vmsd"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "13", "output-vmware-iso/packer-vmware-iso.vmx"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "file", "14", "output-vmware-iso/packer-vmware-iso.vmxf"}
+2020/08/15 13:51:09 machine readable: vmware-iso,artifact []string{"0", "end"}
+2020/08/15 13:51:09 ui: --> vmware-iso: VM files in directory: output-vmware-iso
+2020/08/15 13:51:09 [INFO] (telemetry) Finalizing.
+2020/08/15 13:51:10 waiting for all plugin processes to complete...
+2020/08/15 13:51:10 /Users/jim/bin/packer: plugin process exited
