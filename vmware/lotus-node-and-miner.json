@@ -4,6 +4,7 @@
   "builders": [
     {
       "type": "vmware-iso",
+      "vm_name": "lotus-localnet",
       "iso_url": "http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-amd64.iso",
       "iso_checksum": "sha256:8c5fc24894394035402f66f3824beb7234b757dd2b5531379cb310cedfdf0996",
       "ssh_username": "ubuntu",
@@ -53,7 +54,7 @@
         "curl -sSf https://sh.rustup.rs | sh -s -- -y",
         "git clone https://github.com/filecoin-project/lotus.git",
         "cd lotus",
-        "git checkout ntwk-calibration",
+        "git checkout master",
         "export PATH=$PATH:/usr/local/go/bin:$HOME/.cargo/bin",
         "export RUSTFLAGS=\"-C target-cpu=native -g\"",
         "export FFI_BUILD_FROM_SOURCE=1",
